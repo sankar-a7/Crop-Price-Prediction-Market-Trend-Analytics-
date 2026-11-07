@@ -29,3 +29,4 @@ EXPOSE 8501 5000
 
 # Default command starts Streamlit dashboard
 CMD ["streamlit", "run", "app.py", "--server.port=8501", "--server.address=0.0.0.0"]
+

@@ -50,3 +50,4 @@ jobs:
         print(f'Regional Trend Accuracy: {acc}%')
         assert acc >= 90.0, f'Trend accuracy {acc}% is below required 90.0% threshold'
         "
+
