@@ -144,3 +144,4 @@ class DeepNeuralNetworkPriceForecaster:
         instance.model.to(instance.device)
         instance.model.eval()
         return instance
+

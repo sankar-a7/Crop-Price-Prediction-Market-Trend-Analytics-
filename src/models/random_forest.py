@@ -88,3 +88,4 @@ class RandomForestPriceForecaster:
         instance.model = data["model"]
         instance.feature_names_ = data["feature_names"]
         return instance
+

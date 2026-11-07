@@ -566,3 +566,4 @@ with tab4:
             "R²": "{:.4f}",
             "Directional Accuracy (%)": "{:.2f}%"
         }), use_container_width=True)
+

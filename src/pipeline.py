@@ -158,3 +158,4 @@ class ForecastingPipeline:
         self.benchmarks_ = metadata
         print("\nPipeline execution complete! All artifacts saved successfully.")
         return metadata
+

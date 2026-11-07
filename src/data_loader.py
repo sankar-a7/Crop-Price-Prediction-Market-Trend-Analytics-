@@ -45,3 +45,4 @@ def get_dataset_summary(df: pd.DataFrame) -> dict:
         "missing_counts": df.isna().sum().to_dict(),
         "modal_price_range": (float(df["modal_price"].min()), float(df["modal_price"].max()))
     }
+
