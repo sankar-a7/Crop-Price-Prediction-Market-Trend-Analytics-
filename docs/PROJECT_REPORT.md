@@ -75,3 +75,4 @@ $$\text{Trend Accuracy} = \frac{1}{N}\sum_{t=1}^{N} \text{Hit}_t \times 100\% = 
 > 3. Serialized model metastore & artifact versioning via Git.
 > 4. Interactive user interface (Streamlit) for real-time scenario simulation.
 > 5. Production REST API (Flask) with local feature explainability for downstream systems.
+

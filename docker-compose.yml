@@ -1,0 +1,16 @@
+services:
+  dashboard:
+    build: .
+    container_name: crop_price_dashboard
+    ports:
+      - "8501:8501"
+    restart: unless-stopped
+    command: ["streamlit", "run", "app.py", "--server.port=8501", "--server.address=0.0.0.0"]
+
+  api:
+    build: .
+    container_name: crop_price_api
+    ports:
+      - "5000:5000"
+    restart: unless-stopped
+    command: ["python", "api.py"]

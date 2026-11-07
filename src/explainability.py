@@ -80,3 +80,4 @@ class ModelExplainer:
             "percentage_shift": round((total_delta / baseline_price) * 100, 2) if baseline_price > 0 else 0.0,
             "domain_attributions": breakdown
         }
+

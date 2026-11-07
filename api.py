@@ -189,3 +189,4 @@ def simulate_scenario():
 if __name__ == "__main__":
     # Host REST API service on port 5000
     app.run(host="0.0.0.0", port=5000, debug=False)
+
