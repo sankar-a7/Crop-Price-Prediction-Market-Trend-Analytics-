@@ -1,6 +1,6 @@
 # 🌾 Agricultural Commodity Market Intelligence Briefing
 **Commodity:** Wheat | **Regional Mandi:** Khanna (Punjab) (North Zone)  
-**Publication Timestamp:** 07 November 2026, 06:42 PM  
+**Publication Timestamp:** 07 November 2026, 06:46 PM  
 **Classification:** Analytical Decision Support Brief  
 
 ---
