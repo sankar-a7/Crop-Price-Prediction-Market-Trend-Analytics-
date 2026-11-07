@@ -1,0 +1,13 @@
+region,category,sample_count,rmse,mae,mape,r2,directional_accuracy
+Central,Cereals,52,198.43,162.45,5.74,-0.0793,88.46
+Central,Oilseeds,52,365.13,311.01,5.64,-0.0481,88.46
+East,Cereals,51,212.58,161.64,5.91,-0.4573,92.16
+North,Cereals,52,182.52,152.18,5.5,0.2271,94.23
+North,Oilseeds,52,467.99,399.79,5.95,0.0408,94.23
+North,Vegetables,52,82.43,67.41,5.2,0.9526,92.31
+South,Cereals,103,164.82,137.14,5.12,0.2243,92.23
+South,Pulses,52,736.39,582.19,6.44,-0.6883,82.69
+South,Vegetables,52,101.07,68.55,3.87,0.9693,94.23
+West,Cash Crops,52,537.46,438.64,5.39,0.0759,92.31
+West,Pulses,52,532.39,443.84,6.34,-0.1422,88.46
+West,Vegetables,52,138.09,112.0,5.49,0.9466,94.23
