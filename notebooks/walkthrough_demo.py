@@ -5,6 +5,10 @@ Can be executed directly or used during project presentations/viva.
 """
 
 import os
+import sys
+# Ensure project root is in sys.path
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+
 import json
 import numpy as np
 import pandas as pd
@@ -65,7 +69,7 @@ def main():
         market="Lasalgaon (Maharashtra)",
         region="West",
         category="Vegetables",
-        arrival_quantity=4200.0,  # 30% lower than normal 6000T
+        arrival_quantity=4200.0,
         rainfall_mm=65.0,
         fuel_index=150.0,
         msp=0.0,
